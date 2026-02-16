@@ -8,6 +8,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
     let authService = AuthenticationService()
     private(set) lazy var gcsService = GCSService(authService: authService)
+    private(set) lazy var profileManager = ProfileManager(authService: authService)
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         setupStatusItem()
@@ -42,9 +43,13 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         panel.hasShadow = true
 
         let hostingView = NSHostingView(
-            rootView: MenuBarContentView(authService: authService, gcsService: gcsService)
-                .background(VisualEffectBlur())
-                .clipShape(RoundedRectangle(cornerRadius: 10))
+            rootView: MenuBarContentView(
+                authService: authService,
+                gcsService: gcsService,
+                profileManager: profileManager
+            )
+            .background(VisualEffectBlur())
+            .clipShape(RoundedRectangle(cornerRadius: 10))
         )
         panel.contentView = hostingView
     }

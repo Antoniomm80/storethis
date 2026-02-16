@@ -6,7 +6,7 @@ struct storagethisApp: App {
 
     var body: some Scene {
         Settings {
-            SettingsView(authService: appDelegate.authService)
+            SettingsView(authService: appDelegate.authService, profileManager: appDelegate.profileManager)
         }
     }
 }

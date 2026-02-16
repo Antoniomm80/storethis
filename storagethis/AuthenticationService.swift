@@ -12,13 +12,34 @@ final class AuthenticationService {
 
     private static let gcsScope = "https://www.googleapis.com/auth/devstorage.full_control"
     private static let keyFileName = "service-account-key.json"
+    private var activeKeyFileURL: URL?
 
     init() {
         hasKeyFile = FileManager.default.fileExists(atPath: Self.appSupportDirectory.appendingPathComponent(Self.keyFileName).path)
     }
 
     var keyFileURL: URL {
-        Self.appSupportDirectory.appendingPathComponent(Self.keyFileName)
+        activeKeyFileURL ?? Self.appSupportDirectory.appendingPathComponent(Self.keyFileName)
+    }
+
+    func switchKeyFile(url: URL) {
+        activeKeyFileURL = url
+        serviceAccountKey = nil
+        accessToken = nil
+        tokenExpiry = nil
+        isAuthenticated = false
+        error = nil
+        hasKeyFile = FileManager.default.fileExists(atPath: url.path)
+    }
+
+    func resetState() {
+        activeKeyFileURL = nil
+        serviceAccountKey = nil
+        accessToken = nil
+        tokenExpiry = nil
+        isAuthenticated = false
+        hasKeyFile = false
+        error = nil
     }
 
     private static var appSupportDirectory: URL {

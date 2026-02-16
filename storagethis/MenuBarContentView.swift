@@ -1,9 +1,13 @@
 import SwiftUI
 
 struct MenuBarContentView: View {
-    @AppStorage("bucketName") private var bucketName: String = ""
     @State var authService: AuthenticationService
     @State var gcsService: GCSService
+    @State var profileManager: ProfileManager
+
+    private var bucketName: String {
+        profileManager.activeProfile?.bucketName ?? ""
+    }
 
     var body: some View {
         VStack(spacing: 0) {
@@ -13,7 +17,23 @@ struct MenuBarContentView: View {
                     .foregroundStyle(.secondary)
                 Text("StorageThis")
                     .font(.headline)
+
                 Spacer()
+
+                if profileManager.profiles.count > 1 {
+                    Picker("", selection: Binding(
+                        get: { profileManager.activeProfileId ?? UUID() },
+                        set: { profileManager.switchProfile(to: $0) }
+                    )) {
+                        ForEach(profileManager.profiles) { profile in
+                            Text(profile.name).tag(profile.id)
+                        }
+                    }
+                    .labelsHidden()
+                    .pickerStyle(.menu)
+                    .frame(maxWidth: 100)
+                }
+
                 Button {
                     NSApplication.shared.terminate(nil)
                 } label: {

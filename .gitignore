@@ -8,6 +8,10 @@ DerivedData/
 *.mode2v3
 *.perspectivev3
 xcuserdata/
+*.xcuserstate
+*.moved-aside
+*.gcno
+*.gcda
 
 # Swift Package Manager
 .build/

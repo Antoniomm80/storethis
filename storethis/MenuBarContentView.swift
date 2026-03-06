@@ -15,7 +15,7 @@ struct MenuBarContentView: View {
             HStack {
                 Image(systemName: "cloud.fill")
                     .foregroundStyle(.secondary)
-                Text("StorageThis")
+                Text("StoreThis")
                     .font(.headline)
 
                 Spacer()

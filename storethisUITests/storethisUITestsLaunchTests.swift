@@ -1,13 +1,13 @@
 //
-//  storagethisUITestsLaunchTests.swift
-//  storagethisUITests
+//  storethisUITestsLaunchTests.swift
+//  storethisUITests
 //
 //  Created by Antonio on 15/2/26.
 //
 
 import XCTest
 
-final class storagethisUITestsLaunchTests: XCTestCase {
+final class storethisUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

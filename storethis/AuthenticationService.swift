@@ -44,7 +44,7 @@ final class AuthenticationService {
 
     private static var appSupportDirectory: URL {
         let url = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
-            .appendingPathComponent("storagethis")
+            .appendingPathComponent("storethis")
         try? FileManager.default.createDirectory(at: url, withIntermediateDirectories: true)
         return url
     }

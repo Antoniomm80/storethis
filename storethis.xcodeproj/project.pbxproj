@@ -12,37 +12,37 @@
 			containerPortal = 585AC37B2F42596A0096DD2D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 585AC3822F42596A0096DD2D;
-			remoteInfo = storagethis;
+			remoteInfo = storethis;
 		};
 		585AC39D2F42596B0096DD2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 585AC37B2F42596A0096DD2D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 585AC3822F42596A0096DD2D;
-			remoteInfo = storagethis;
+			remoteInfo = storethis;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		585AC3832F42596A0096DD2D /* storagethis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = storagethis.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		585AC3922F42596B0096DD2D /* storagethisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = storagethisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		585AC39C2F42596B0096DD2D /* storagethisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = storagethisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		585AC3832F42596A0096DD2D /* storethis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = storethis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		585AC3922F42596B0096DD2D /* storethisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = storethisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		585AC39C2F42596B0096DD2D /* storethisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = storethisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		585AC3852F42596A0096DD2D /* storagethis */ = {
+		585AC3852F42596A0096DD2D /* storethis */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = storagethis;
+			path = storethis;
 			sourceTree = "<group>";
 		};
-		585AC3952F42596B0096DD2D /* storagethisTests */ = {
+		585AC3952F42596B0096DD2D /* storethisTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = storagethisTests;
+			path = storethisTests;
 			sourceTree = "<group>";
 		};
-		585AC39F2F42596B0096DD2D /* storagethisUITests */ = {
+		585AC39F2F42596B0096DD2D /* storethisUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = storagethisUITests;
+			path = storethisUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		585AC37A2F42596A0096DD2D = {
 			isa = PBXGroup;
 			children = (
-				585AC3852F42596A0096DD2D /* storagethis */,
-				585AC3952F42596B0096DD2D /* storagethisTests */,
-				585AC39F2F42596B0096DD2D /* storagethisUITests */,
+				585AC3852F42596A0096DD2D /* storethis */,
+				585AC3952F42596B0096DD2D /* storethisTests */,
+				585AC39F2F42596B0096DD2D /* storethisUITests */,
 				585AC3842F42596A0096DD2D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		585AC3842F42596A0096DD2D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				585AC3832F42596A0096DD2D /* storagethis.app */,
-				585AC3922F42596B0096DD2D /* storagethisTests.xctest */,
-				585AC39C2F42596B0096DD2D /* storagethisUITests.xctest */,
+				585AC3832F42596A0096DD2D /* storethis.app */,
+				585AC3922F42596B0096DD2D /* storethisTests.xctest */,
+				585AC39C2F42596B0096DD2D /* storethisUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		585AC3822F42596A0096DD2D /* storagethis */ = {
+		585AC3822F42596A0096DD2D /* storethis */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 585AC3A62F42596B0096DD2D /* Build configuration list for PBXNativeTarget "storagethis" */;
+			buildConfigurationList = 585AC3A62F42596B0096DD2D /* Build configuration list for PBXNativeTarget "storethis" */;
 			buildPhases = (
 				585AC37F2F42596A0096DD2D /* Sources */,
 				585AC3802F42596A0096DD2D /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				585AC3852F42596A0096DD2D /* storagethis */,
+				585AC3852F42596A0096DD2D /* storethis */,
 			);
-			name = storagethis;
+			name = storethis;
 			packageProductDependencies = (
 			);
-			productName = storagethis;
-			productReference = 585AC3832F42596A0096DD2D /* storagethis.app */;
+			productName = storethis;
+			productReference = 585AC3832F42596A0096DD2D /* storethis.app */;
 			productType = "com.apple.product-type.application";
 		};
-		585AC3912F42596B0096DD2D /* storagethisTests */ = {
+		585AC3912F42596B0096DD2D /* storethisTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 585AC3A92F42596B0096DD2D /* Build configuration list for PBXNativeTarget "storagethisTests" */;
+			buildConfigurationList = 585AC3A92F42596B0096DD2D /* Build configuration list for PBXNativeTarget "storethisTests" */;
 			buildPhases = (
 				585AC38E2F42596B0096DD2D /* Sources */,
 				585AC38F2F42596B0096DD2D /* Frameworks */,
@@ -131,18 +131,18 @@
 				585AC3942F42596B0096DD2D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				585AC3952F42596B0096DD2D /* storagethisTests */,
+				585AC3952F42596B0096DD2D /* storethisTests */,
 			);
-			name = storagethisTests;
+			name = storethisTests;
 			packageProductDependencies = (
 			);
-			productName = storagethisTests;
-			productReference = 585AC3922F42596B0096DD2D /* storagethisTests.xctest */;
+			productName = storethisTests;
+			productReference = 585AC3922F42596B0096DD2D /* storethisTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		585AC39B2F42596B0096DD2D /* storagethisUITests */ = {
+		585AC39B2F42596B0096DD2D /* storethisUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 585AC3AC2F42596B0096DD2D /* Build configuration list for PBXNativeTarget "storagethisUITests" */;
+			buildConfigurationList = 585AC3AC2F42596B0096DD2D /* Build configuration list for PBXNativeTarget "storethisUITests" */;
 			buildPhases = (
 				585AC3982F42596B0096DD2D /* Sources */,
 				585AC3992F42596B0096DD2D /* Frameworks */,
@@ -154,13 +154,13 @@
 				585AC39E2F42596B0096DD2D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				585AC39F2F42596B0096DD2D /* storagethisUITests */,
+				585AC39F2F42596B0096DD2D /* storethisUITests */,
 			);
-			name = storagethisUITests;
+			name = storethisUITests;
 			packageProductDependencies = (
 			);
-			productName = storagethisUITests;
-			productReference = 585AC39C2F42596B0096DD2D /* storagethisUITests.xctest */;
+			productName = storethisUITests;
+			productReference = 585AC39C2F42596B0096DD2D /* storethisUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 585AC37E2F42596A0096DD2D /* Build configuration list for PBXProject "storagethis" */;
+			buildConfigurationList = 585AC37E2F42596A0096DD2D /* Build configuration list for PBXProject "storethis" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				585AC3822F42596A0096DD2D /* storagethis */,
-				585AC3912F42596B0096DD2D /* storagethisTests */,
-				585AC39B2F42596B0096DD2D /* storagethisUITests */,
+				585AC3822F42596A0096DD2D /* storethis */,
+				585AC3912F42596B0096DD2D /* storethisTests */,
+				585AC39B2F42596B0096DD2D /* storethisUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		585AC3942F42596B0096DD2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 585AC3822F42596A0096DD2D /* storagethis */;
+			target = 585AC3822F42596A0096DD2D /* storethis */;
 			targetProxy = 585AC3932F42596B0096DD2D /* PBXContainerItemProxy */;
 		};
 		585AC39E2F42596B0096DD2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 585AC3822F42596A0096DD2D /* storagethis */;
+			target = 585AC3822F42596A0096DD2D /* storethis */;
 			targetProxy = 585AC39D2F42596B0096DD2D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -388,7 +388,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = storagethis/storagethis.entitlements;
+				CODE_SIGN_ENTITLEMENTS = storethis/storethis.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
@@ -400,7 +400,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.amm.storagethis;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amm.storethis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
@@ -419,7 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = storagethis/storagethis.entitlements;
+				CODE_SIGN_ENTITLEMENTS = storethis/storethis.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
@@ -431,7 +431,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.amm.storagethis;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amm.storethis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = macosx;
@@ -454,7 +454,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.amm.storagethisTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amm.storethisTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -463,7 +463,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/storagethis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/storagethis";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/storethis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/storethis";
 			};
 			name = Debug;
 		};
@@ -476,7 +476,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.amm.storagethisTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amm.storethisTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -485,7 +485,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/storagethis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/storagethis";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/storethis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/storethis";
 			};
 			name = Release;
 		};
@@ -497,7 +497,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.amm.storagethisUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amm.storethisUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -506,7 +506,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = storagethis;
+				TEST_TARGET_NAME = storethis;
 			};
 			name = Debug;
 		};
@@ -518,7 +518,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.amm.storagethisUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amm.storethisUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -527,14 +527,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = storagethis;
+				TEST_TARGET_NAME = storethis;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		585AC37E2F42596A0096DD2D /* Build configuration list for PBXProject "storagethis" */ = {
+		585AC37E2F42596A0096DD2D /* Build configuration list for PBXProject "storethis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				585AC3A42F42596B0096DD2D /* Debug */,
@@ -543,7 +543,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		585AC3A62F42596B0096DD2D /* Build configuration list for PBXNativeTarget "storagethis" */ = {
+		585AC3A62F42596B0096DD2D /* Build configuration list for PBXNativeTarget "storethis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				585AC3A72F42596B0096DD2D /* Debug */,
@@ -552,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		585AC3A92F42596B0096DD2D /* Build configuration list for PBXNativeTarget "storagethisTests" */ = {
+		585AC3A92F42596B0096DD2D /* Build configuration list for PBXNativeTarget "storethisTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				585AC3AA2F42596B0096DD2D /* Debug */,
@@ -561,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		585AC3AC2F42596B0096DD2D /* Build configuration list for PBXNativeTarget "storagethisUITests" */ = {
+		585AC3AC2F42596B0096DD2D /* Build configuration list for PBXNativeTarget "storethisUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				585AC3AD2F42596B0096DD2D /* Debug */,

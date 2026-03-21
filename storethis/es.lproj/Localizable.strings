@@ -1,0 +1,62 @@
+/* Spanish Localizable Strings */
+
+/* Menu Bar */
+"menu.title" = "StoreThis";
+"menu.notConfigured" = "Sin configurar";
+"menu.notConfiguredHelp" = "Abre Ajustes (Cmd+,) para configurar tu bucket de GCS y la cuenta de servicio.";
+
+/* Drop Zone */
+"dropzone.idle" = "Arrastra archivos aqui para subir";
+"dropzone.uploading" = "Subiendo %@...";
+"dropzone.success" = "%@ subido";
+
+/* Bucket Browser */
+"browser.empty" = "Vacio";
+
+/* File Preview */
+"preview.loading" = "Cargando vista previa...";
+"preview.unsupported" = "No se puede previsualizar este archivo";
+"preview.pdfDocument" = "Documento PDF";
+"preview.openInPreview" = "Abrir en Vista Previa";
+"preview.openInDefaultApp" = "Abrir con la app predeterminada";
+"preview.failedToOpen" = "Error al abrir el archivo: %@";
+
+/* File Row */
+"file.delete" = "Eliminar";
+
+/* Settings - Profile */
+"settings.profile" = "Perfil";
+"settings.noProfiles" = "Sin perfiles";
+"settings.newProfile" = "Nuevo perfil";
+"settings.profileName" = "Nombre del perfil";
+"settings.cancel" = "Cancelar";
+"settings.create" = "Crear";
+"settings.renameProfile" = "Renombrar perfil";
+"settings.rename" = "Renombrar";
+"settings.remove" = "Eliminar";
+
+/* Settings - Service Account */
+"settings.serviceAccountKey" = "Clave de cuenta de servicio";
+"settings.keyConfigured" = "Archivo de clave configurado";
+"settings.noKeyFile" = "Sin archivo de clave";
+"settings.selectJsonKey" = "Seleccionar clave JSON...";
+
+/* Settings - Bucket */
+"settings.bucket" = "Bucket";
+"settings.bucketName" = "Nombre del bucket";
+
+/* Settings - Connection */
+"settings.connection" = "Conexion";
+"settings.testConnection" = "Probar conexion";
+"settings.connected" = "Conectado";
+
+/* Settings - Language */
+"settings.language" = "Idioma";
+"settings.languageSystemDefault" = "Predeterminado del sistema";
+"settings.languageEnglish" = "Ingles";
+"settings.languageSpanish" = "Espanol";
+"settings.languageFrench" = "Frances";
+"settings.languageRestartNote" = "El cambio de idioma se aplicara de inmediato.";
+
+/* Accessibility */
+"accessibility.appName" = "StoreThis";

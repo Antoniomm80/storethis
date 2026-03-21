@@ -5,6 +5,7 @@ struct BucketBrowserView: View {
     let bucket: String
     let onRefresh: () -> Void
     let onDelete: (String) -> Void
+    var localization: LocalizationManager = .shared
 
     @State private var selectedObject: GCSObject?
 
@@ -68,7 +69,7 @@ struct BucketBrowserView: View {
             } else if gcsService.prefixes.isEmpty && gcsService.objects.isEmpty {
                 HStack {
                     Spacer()
-                    Text("Empty")
+                    Text(localization.localized("browser.empty"))
                         .font(.caption)
                         .foregroundStyle(.secondary)
                     Spacer()

@@ -4,6 +4,7 @@ struct MenuBarContentView: View {
     @State var authService: AuthenticationService
     @State var gcsService: GCSService
     @State var profileManager: ProfileManager
+    var localization: LocalizationManager = .shared
 
     private var bucketName: String {
         profileManager.activeProfile?.bucketName ?? ""
@@ -15,7 +16,7 @@ struct MenuBarContentView: View {
             HStack {
                 Image(systemName: "cloud.fill")
                     .foregroundStyle(.secondary)
-                Text("StoreThis")
+                Text(localization.localized("menu.title"))
                     .font(.headline)
 
                 Spacer()
@@ -71,9 +72,9 @@ struct MenuBarContentView: View {
             Image(systemName: "gearshape")
                 .font(.largeTitle)
                 .foregroundStyle(.secondary)
-            Text("Not Configured")
+            Text(localization.localized("menu.notConfigured"))
                 .font(.headline)
-            Text("Open Settings (Cmd+,) to configure your GCS bucket and service account.")
+            Text(localization.localized("menu.notConfiguredHelp"))
                 .font(.caption)
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)

@@ -4,6 +4,7 @@ import UniformTypeIdentifiers
 struct DropZoneView: View {
     let uploadState: UploadState
     let onDrop: ([URL]) -> Void
+    var localization: LocalizationManager = .shared
 
     @State private var isTargeted = false
 
@@ -14,14 +15,14 @@ struct DropZoneView: View {
                 Image(systemName: "arrow.down.doc")
                     .font(.title2)
                     .foregroundStyle(.secondary)
-                Text("Drop files here to upload")
+                Text(localization.localized("dropzone.idle"))
                     .font(.caption)
                     .foregroundStyle(.secondary)
 
             case .uploading(let fileName, _):
                 ProgressView()
                     .controlSize(.small)
-                Text("Uploading \(fileName)...")
+                Text(localization.localized("dropzone.uploading", fileName))
                     .font(.caption)
                     .foregroundStyle(.secondary)
                     .lineLimit(1)
@@ -30,7 +31,7 @@ struct DropZoneView: View {
                 Image(systemName: "checkmark.circle.fill")
                     .font(.title2)
                     .foregroundStyle(.green)
-                Text("\(fileName) uploaded")
+                Text(localization.localized("dropzone.success", fileName))
                     .font(.caption)
                     .foregroundStyle(.secondary)
                     .lineLimit(1)

@@ -1,0 +1,62 @@
+/* English Localizable Strings */
+
+/* Menu Bar */
+"menu.title" = "StoreThis";
+"menu.notConfigured" = "Not Configured";
+"menu.notConfiguredHelp" = "Open Settings (Cmd+,) to configure your GCS bucket and service account.";
+
+/* Drop Zone */
+"dropzone.idle" = "Drop files here to upload";
+"dropzone.uploading" = "Uploading %@...";
+"dropzone.success" = "%@ uploaded";
+
+/* Bucket Browser */
+"browser.empty" = "Empty";
+
+/* File Preview */
+"preview.loading" = "Loading preview...";
+"preview.unsupported" = "Unable to preview this file";
+"preview.pdfDocument" = "PDF Document";
+"preview.openInPreview" = "Open in Preview";
+"preview.openInDefaultApp" = "Open in Default App";
+"preview.failedToOpen" = "Failed to open file: %@";
+
+/* File Row */
+"file.delete" = "Delete";
+
+/* Settings - Profile */
+"settings.profile" = "Profile";
+"settings.noProfiles" = "No profiles";
+"settings.newProfile" = "New Profile";
+"settings.profileName" = "Profile name";
+"settings.cancel" = "Cancel";
+"settings.create" = "Create";
+"settings.renameProfile" = "Rename Profile";
+"settings.rename" = "Rename";
+"settings.remove" = "Remove";
+
+/* Settings - Service Account */
+"settings.serviceAccountKey" = "Service Account Key";
+"settings.keyConfigured" = "Key file configured";
+"settings.noKeyFile" = "No key file";
+"settings.selectJsonKey" = "Select JSON Key...";
+
+/* Settings - Bucket */
+"settings.bucket" = "Bucket";
+"settings.bucketName" = "Bucket name";
+
+/* Settings - Connection */
+"settings.connection" = "Connection";
+"settings.testConnection" = "Test Connection";
+"settings.connected" = "Connected";
+
+/* Settings - Language */
+"settings.language" = "Language";
+"settings.languageSystemDefault" = "System Default";
+"settings.languageEnglish" = "English";
+"settings.languageSpanish" = "Spanish";
+"settings.languageFrench" = "French";
+"settings.languageRestartNote" = "Changing the language will take effect immediately.";
+
+/* Accessibility */
+"accessibility.appName" = "StoreThis";

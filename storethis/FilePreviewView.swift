@@ -6,6 +6,7 @@ struct FilePreviewView: View {
     let gcsService: GCSService
     let bucket: String
     let onBack: () -> Void
+    var localization: LocalizationManager = .shared
 
     @State private var fileData: Data?
     @State private var isLoading = true
@@ -39,7 +40,7 @@ struct FilePreviewView: View {
                             .font(.caption)
                     }
                     .buttonStyle(.plain)
-                    .help("Open in default app")
+                    .help(localization.localized("preview.openInDefaultApp"))
                 }
             }
             .padding(.horizontal, 8)
@@ -54,7 +55,7 @@ struct FilePreviewView: View {
                     VStack(spacing: 8) {
                         ProgressView()
                             .controlSize(.small)
-                        Text("Loading preview...")
+                        Text(localization.localized("preview.loading"))
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     }
@@ -121,13 +122,13 @@ struct FilePreviewView: View {
             Image(systemName: "doc.richtext")
                 .font(.largeTitle)
                 .foregroundStyle(.secondary)
-            Text("PDF Document")
+            Text(localization.localized("preview.pdfDocument"))
                 .font(.caption)
                 .foregroundStyle(.secondary)
             Text(object.formattedSize)
                 .font(.caption2)
                 .foregroundStyle(.tertiary)
-            Button("Open in Preview") {
+            Button(localization.localized("preview.openInPreview")) {
                 saveToTempAndOpen(data: data)
             }
             .controlSize(.small)
@@ -167,7 +168,7 @@ struct FilePreviewView: View {
             Text(object.formattedSize)
                 .font(.caption2)
                 .foregroundStyle(.tertiary)
-            Button("Open in Default App") {
+            Button(localization.localized("preview.openInDefaultApp")) {
                 saveToTempAndOpen(data: data)
             }
             .controlSize(.small)
@@ -182,7 +183,7 @@ struct FilePreviewView: View {
             Image(systemName: "questionmark.circle")
                 .font(.largeTitle)
                 .foregroundStyle(.secondary)
-            Text("Unable to preview this file")
+            Text(localization.localized("preview.unsupported"))
                 .font(.caption)
                 .foregroundStyle(.secondary)
             Spacer()
@@ -219,7 +220,7 @@ struct FilePreviewView: View {
             try data.write(to: tempFile)
             NSWorkspace.shared.open(tempFile)
         } catch {
-            self.error = "Failed to open file: \(error.localizedDescription)"
+            self.error = localization.localized("preview.failedToOpen", error.localizedDescription)
         }
     }
 }

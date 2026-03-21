@@ -1,0 +1,62 @@
+/* French Localizable Strings */
+
+/* Menu Bar */
+"menu.title" = "StoreThis";
+"menu.notConfigured" = "Non configure";
+"menu.notConfiguredHelp" = "Ouvrez les Reglages (Cmd+,) pour configurer votre bucket GCS et le compte de service.";
+
+/* Drop Zone */
+"dropzone.idle" = "Deposez vos fichiers ici pour les envoyer";
+"dropzone.uploading" = "Envoi de %@ en cours...";
+"dropzone.success" = "%@ envoye";
+
+/* Bucket Browser */
+"browser.empty" = "Vide";
+
+/* File Preview */
+"preview.loading" = "Chargement de l'apercu...";
+"preview.unsupported" = "Impossible d'afficher l'apercu de ce fichier";
+"preview.pdfDocument" = "Document PDF";
+"preview.openInPreview" = "Ouvrir dans Apercu";
+"preview.openInDefaultApp" = "Ouvrir avec l'application par defaut";
+"preview.failedToOpen" = "Impossible d'ouvrir le fichier : %@";
+
+/* File Row */
+"file.delete" = "Supprimer";
+
+/* Settings - Profile */
+"settings.profile" = "Profil";
+"settings.noProfiles" = "Aucun profil";
+"settings.newProfile" = "Nouveau profil";
+"settings.profileName" = "Nom du profil";
+"settings.cancel" = "Annuler";
+"settings.create" = "Creer";
+"settings.renameProfile" = "Renommer le profil";
+"settings.rename" = "Renommer";
+"settings.remove" = "Supprimer";
+
+/* Settings - Service Account */
+"settings.serviceAccountKey" = "Cle du compte de service";
+"settings.keyConfigured" = "Fichier de cle configure";
+"settings.noKeyFile" = "Aucun fichier de cle";
+"settings.selectJsonKey" = "Selectionner la cle JSON...";
+
+/* Settings - Bucket */
+"settings.bucket" = "Bucket";
+"settings.bucketName" = "Nom du bucket";
+
+/* Settings - Connection */
+"settings.connection" = "Connexion";
+"settings.testConnection" = "Tester la connexion";
+"settings.connected" = "Connecte";
+
+/* Settings - Language */
+"settings.language" = "Langue";
+"settings.languageSystemDefault" = "Langue du systeme";
+"settings.languageEnglish" = "Anglais";
+"settings.languageSpanish" = "Espagnol";
+"settings.languageFrench" = "Francais";
+"settings.languageRestartNote" = "Le changement de langue prendra effet immediatement.";
+
+/* Accessibility */
+"accessibility.appName" = "StoreThis";

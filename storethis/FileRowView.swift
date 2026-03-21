@@ -3,6 +3,7 @@ import SwiftUI
 struct FileRowView: View {
     let object: GCSObject
     let onDelete: () -> Void
+    var localization: LocalizationManager = .shared
 
     var body: some View {
         HStack(spacing: 8) {
@@ -29,7 +30,7 @@ struct FileRowView: View {
                 Button(role: .destructive) {
                     onDelete()
                 } label: {
-                    Label("Delete", systemImage: "trash")
+                    Label(localization.localized("file.delete"), systemImage: "trash")
                 }
             }
         }

@@ -2,23 +2,23 @@
 
 /* Menu Bar */
 "menu.title" = "StoreThis";
-"menu.notConfigured" = "Non configure";
-"menu.notConfiguredHelp" = "Ouvrez les Reglages (Cmd+,) pour configurer votre bucket GCS et le compte de service.";
+"menu.notConfigured" = "Non configuré";
+"menu.notConfiguredHelp" = "Ouvrez les Réglages (Cmd+,) pour configurer votre bucket GCS et le compte de service.";
 
 /* Drop Zone */
-"dropzone.idle" = "Deposez vos fichiers ici pour les envoyer";
+"dropzone.idle" = "Déposez vos fichiers ici pour les envoyer";
 "dropzone.uploading" = "Envoi de %@ en cours...";
-"dropzone.success" = "%@ envoye";
+"dropzone.success" = "%@ envoyé";
 
 /* Bucket Browser */
 "browser.empty" = "Vide";
 
 /* File Preview */
-"preview.loading" = "Chargement de l'apercu...";
-"preview.unsupported" = "Impossible d'afficher l'apercu de ce fichier";
+"preview.loading" = "Chargement de l'aperçu...";
+"preview.unsupported" = "Impossible d'afficher l'aperçu de ce fichier";
 "preview.pdfDocument" = "Document PDF";
-"preview.openInPreview" = "Ouvrir dans Apercu";
-"preview.openInDefaultApp" = "Ouvrir avec l'application par defaut";
+"preview.openInPreview" = "Ouvrir dans Aperçu";
+"preview.openInDefaultApp" = "Ouvrir avec l'application par défaut";
 "preview.failedToOpen" = "Impossible d'ouvrir le fichier : %@";
 
 /* File Row */
@@ -30,16 +30,16 @@
 "settings.newProfile" = "Nouveau profil";
 "settings.profileName" = "Nom du profil";
 "settings.cancel" = "Annuler";
-"settings.create" = "Creer";
+"settings.create" = "Créer";
 "settings.renameProfile" = "Renommer le profil";
 "settings.rename" = "Renommer";
 "settings.remove" = "Supprimer";
 
 /* Settings - Service Account */
-"settings.serviceAccountKey" = "Cle du compte de service";
-"settings.keyConfigured" = "Fichier de cle configure";
-"settings.noKeyFile" = "Aucun fichier de cle";
-"settings.selectJsonKey" = "Selectionner la cle JSON...";
+"settings.serviceAccountKey" = "Clé du compte de service";
+"settings.keyConfigured" = "Fichier de clé configuré";
+"settings.noKeyFile" = "Aucun fichier de clé";
+"settings.selectJsonKey" = "Sélectionner la clé JSON...";
 
 /* Settings - Bucket */
 "settings.bucket" = "Bucket";
@@ -48,15 +48,15 @@
 /* Settings - Connection */
 "settings.connection" = "Connexion";
 "settings.testConnection" = "Tester la connexion";
-"settings.connected" = "Connecte";
+"settings.connected" = "Connecté";
 
 /* Settings - Language */
 "settings.language" = "Langue";
-"settings.languageSystemDefault" = "Langue du systeme";
+"settings.languageSystemDefault" = "Langue du système";
 "settings.languageEnglish" = "Anglais";
 "settings.languageSpanish" = "Espagnol";
-"settings.languageFrench" = "Francais";
-"settings.languageRestartNote" = "Le changement de langue prendra effet immediatement.";
+"settings.languageFrench" = "Français";
+"settings.languageRestartNote" = "Le changement de langue prendra effet immédiatement.";
 
 /* Accessibility */
 "accessibility.appName" = "StoreThis";

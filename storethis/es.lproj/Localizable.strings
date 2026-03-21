@@ -6,12 +6,12 @@
 "menu.notConfiguredHelp" = "Abre Ajustes (Cmd+,) para configurar tu bucket de GCS y la cuenta de servicio.";
 
 /* Drop Zone */
-"dropzone.idle" = "Arrastra archivos aqui para subir";
+"dropzone.idle" = "Arrastra archivos aquí para subir";
 "dropzone.uploading" = "Subiendo %@...";
 "dropzone.success" = "%@ subido";
 
 /* Bucket Browser */
-"browser.empty" = "Vacio";
+"browser.empty" = "Vacío";
 
 /* File Preview */
 "preview.loading" = "Cargando vista previa...";
@@ -46,17 +46,17 @@
 "settings.bucketName" = "Nombre del bucket";
 
 /* Settings - Connection */
-"settings.connection" = "Conexion";
-"settings.testConnection" = "Probar conexion";
+"settings.connection" = "Conexión";
+"settings.testConnection" = "Probar conexión";
 "settings.connected" = "Conectado";
 
 /* Settings - Language */
 "settings.language" = "Idioma";
 "settings.languageSystemDefault" = "Predeterminado del sistema";
-"settings.languageEnglish" = "Ingles";
-"settings.languageSpanish" = "Espanol";
-"settings.languageFrench" = "Frances";
-"settings.languageRestartNote" = "El cambio de idioma se aplicara de inmediato.";
+"settings.languageEnglish" = "Inglés";
+"settings.languageSpanish" = "Español";
+"settings.languageFrench" = "Francés";
+"settings.languageRestartNote" = "El cambio de idioma se aplicará de inmediato.";
 
 /* Accessibility */
 "accessibility.appName" = "StoreThis";
